@@ -200,7 +200,7 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="col-lg-4 form-group" style="margin-top: 20%">
+                                                                    <div class="col-lg-4 form-group m-auto text-center">
                                                                         <p style="font-size: 20px"><b>Previews</b></p>
                                                                         <div class="add-cartttt">
                                                                             <button type="submit" class="btn btn-info add-cart-animation small-12" id="button-text">
@@ -213,7 +213,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <button type="submit" name="submit" class="btn btn-info" style="padding: 8px, 16px; font-size: 20px">
+                                                                <button type="submit" name="submit" class="btn btn-info" style="padding: 8px 16px; font-size: 20px">
                                                                     <i class="fa fa-plus-circle" style="margin-right: 4px"></i> Save
                                                                 </button>
                                                             </form>
