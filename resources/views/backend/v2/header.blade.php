@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  {{--<title>{{ config('shopify-app.app_name') }}</title>--}}
-  <title>Cart Animation</title>
+  <title>{{ config('shopify-app.app_name') }}</title>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Language" content="en">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>

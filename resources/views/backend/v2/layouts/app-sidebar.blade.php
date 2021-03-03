@@ -39,8 +39,7 @@
     <div class="scrollbar-sidebar ps ps--active-y">
         <div class="app-sidebar__inner">
             <ul class="vertical-nav-menu">
-                {{--<li class="app-sidebar__heading">{{ config('shopify-app.app_name') }}</li>--}}
-                <li class="app-sidebar__heading">Cart Animation</li>
+                <li class="app-sidebar__heading">{{ config('shopify-app.app_name') }}</li>
                 <li class="li-menu li-active">
                     <a href="{{route('cartAnimation.index')}}">
                         <i class="metismenu-icon fa fa-cog"></i>
