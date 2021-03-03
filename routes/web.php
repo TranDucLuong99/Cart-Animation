@@ -101,12 +101,12 @@ Route::group(['middleware' => ['web']], function () {
 
     //backend
     Route::get(
-        '/',
+        '/cart-animation',
         'CartAnimationController@index'
     )
         ->middleware(['auth.shop', 'billable'])
         ->name('home');
-    Route::get('cartAnimation', 'CartAnimationController@index')->name('cartAnimation.index');
+    Route::get('cart-animation', 'CartAnimationController@index')->name('cartAnimation.index');
     Route::get('add-cartAnimation', 'CartAnimationController@add_cartAnimation')->name('add_cartAnimation');
     Route::get('cart-ani', 'CartAnimationController@cart_ani')->name('cart-ani.index');
 
