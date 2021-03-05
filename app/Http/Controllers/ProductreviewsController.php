@@ -77,6 +77,7 @@ class ProductreviewsController extends Controller
         if(!$shop){
             return redirect()->route('login');
         }
+        
 
     }
 

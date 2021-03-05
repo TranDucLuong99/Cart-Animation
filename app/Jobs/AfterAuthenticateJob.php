@@ -42,7 +42,7 @@ class AfterAuthenticateJob implements ShouldQueue
         if($this->shop->shopify_domain && !$this->shop->shopify_email){
             $this->insertEmailToShopTable();
         }
-        $this->sendMailInstallApp();
+        //$this->sendMailInstallApp();
         
     }
     

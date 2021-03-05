@@ -1,3 +1,4 @@
+
 @include('backend.v2.header')
 <?php $shop = ShopifyApp::shop();  ?>
 @include('backend.v2.preloader')
@@ -247,7 +248,6 @@
     $( "#inputtext" ).keyup(textthaydoi);
     //Cho #inputext phát sinh một sự kiện keyup ban đầu
     $( "#inputtext" ).keyup();
-
     $("#mySelect").change(function() {
         $cart = document.getElementById("mySelect").value;
         if ($cart == 1) {
@@ -275,7 +275,6 @@
             $("link[id='style']").attr('href', 'css/style0.css');
         }
     });
-
     $("#mySelect").each(function() {
         $font_family = "";
         $color_title = document.getElementById("color_title").value;
@@ -334,7 +333,6 @@
                 $("link[id='style']").attr('href', 'css/style0.css');
             }
         }
-
     });
     $(document).change(function() {
         $font_family = "";
@@ -344,7 +342,6 @@
         $font_size = document.getElementById("font_size").value;
         $background_title_hover= document.getElementById("background_title_hover").value;
         $color_title_hover= document.getElementById("color_title_hover").value;
-
         if ($font == 0) {
             $font_family = 'Arapey, serif';
         } else if ($font == 1) {
@@ -371,5 +368,3 @@
     });
 </script>
 @include('backend.v2.footer')
-
-

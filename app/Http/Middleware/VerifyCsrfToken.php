@@ -28,20 +28,17 @@ class VerifyCsrfToken extends Middleware
      *
      * @var array
      */
-    protected $except = [
-//        'http://luong8080.ngrok.io/*',
-    ];
+    protected $except = [];
     
     public function __construct(Application $app, Encrypter $encrypter)
     {
         $this->app = $app;
         $this->encrypter = $encrypter;
         $this->except = [
-            'https://luong8080.ngrok.io/ajax-product',
+        	
+            //'https://www.ndnapps.com/ndnapps/productreviews/webhook/shop-redact',
             //'https://www.ndnapps.com/ndnapps/productreviews/webhook/customers-redact',
             //'https://www.ndnapps.com/ndnapps/productreviews/webhook/customers-data-request',
         ];
     }
-
-
 }
